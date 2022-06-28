@@ -1,4 +1,4 @@
-# sphere-ios-framework
+# GISTDA sphere iOS Framework
 
 This  is GISTDA sphere iOS Framework. 
 
