@@ -1,0 +1,11 @@
+framework module SphereSDK {
+  umbrella header "SphereSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SphereSDK.Swift {
+    header "SphereSDK-Swift.h"
+    requires objc
+}

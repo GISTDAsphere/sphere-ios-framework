@@ -1,0 +1,86 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target x86_64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SphereSDK
+import CoreLocation
+import Foundation
+@_exported import SphereSDK
+import Swift
+import WebKit
+import _Concurrency
+public enum SphereTurn : Swift.Int {
+  case Left
+  case Right
+  case SlightLeft
+  case SlightRight
+  case Unknown
+  case Straight
+  case Tollway
+  case Arrive
+  case Ferry
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum SphereLocale : Swift.String {
+  case English
+  case Thai
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class Sphere : WebKit.WKWebView, WebKit.WKNavigationDelegate, WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor(unsafe) public var apiKey: Swift.String
+  @_Concurrency.MainActor(unsafe) public var server: Swift.String
+  @_Concurrency.MainActor(unsafe) public var options: SphereSDK.Sphere.Option
+  @objc @_inheritsConvenienceInitializers public class Option : ObjectiveC.NSObject {
+    public var layer: SphereSDK.Sphere.SphereStatic
+    public var zoom: Swift.Int
+    public var zoomRange: Swift.ClosedRange<Swift.Int>
+    public var location: CoreLocation.CLLocationCoordinate2D
+    public var lastView: Swift.Bool
+    public var onReady: (() -> Swift.Void)?
+    @objc override dynamic public init()
+    public func toDictionary() -> [Swift.String : Any]
+    @objc deinit
+  }
+  public struct SphereStatic : Swift.Hashable {
+    public let type: Swift.String
+    public let name: Swift.String
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: SphereSDK.Sphere.SphereStatic, b: SphereSDK.Sphere.SphereStatic) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public struct SphereFunction : Swift.Hashable {
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: SphereSDK.Sphere.SphereFunction, b: SphereSDK.Sphere.SphereFunction) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public struct SphereObject : Any, Swift.Equatable {
+    public static func == (lhs: SphereSDK.Sphere.SphereObject, rhs: SphereSDK.Sphere.SphereObject) -> Swift.Bool
+    public let type: Swift.String
+  }
+  @_Concurrency.MainActor(unsafe) public func createSphereStatic(_ type: Swift.String, with name: Swift.String) -> SphereSDK.Sphere.SphereStatic
+  @_Concurrency.MainActor(unsafe) public func createSphereObject(_ type: Swift.String, with params: [Any]) -> SphereSDK.Sphere.SphereObject
+  @_Concurrency.MainActor(unsafe) public func createSphereFunction(_ function: Swift.String) -> SphereSDK.Sphere.SphereFunction
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect, configuration: WebKit.WKWebViewConfiguration)
+  @_Concurrency.MainActor(unsafe) public func render()
+  @_Concurrency.MainActor(unsafe) @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @_Concurrency.MainActor(unsafe) public func call(method: Swift.String, args: [Any]?, completionHandler: @escaping ((Any?) -> Swift.Void)) -> Any?
+  @_Concurrency.MainActor(unsafe) public func call(method: Swift.String, args: [Any]?) -> Any?
+  @_Concurrency.MainActor(unsafe) public func objectCall(sphereObject: SphereSDK.Sphere.SphereObject, method: Swift.String, args: [Any]?) -> Any?
+  @objc deinit
+}
+extension SphereSDK.SphereTurn : Swift.Equatable {}
+extension SphereSDK.SphereTurn : Swift.Hashable {}
+extension SphereSDK.SphereTurn : Swift.RawRepresentable {}
+extension SphereSDK.SphereLocale : Swift.Equatable {}
+extension SphereSDK.SphereLocale : Swift.Hashable {}
+extension SphereSDK.SphereLocale : Swift.RawRepresentable {}
