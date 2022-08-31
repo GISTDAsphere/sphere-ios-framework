@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		2ra10bpc1Qw08lheASIrQK1lIPE=
+		a+mdN3nIpD3xRP4xXMKPImV0Vnk=
 		</data>
 		<key>Resources/index.html</key>
 		<data>
-		RfTsnsMBunbvtZPuqH/HERIjuRU=
+		xASR97eMsWJMGsWelPFi89bZDwk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -33,7 +33,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LNJee9Jiiea+NCxVVDAFrdqpYXMFe8RvxAIynoiRUEY=
+			d1Q7K5asCU7gnJEmyCyu8lXFCe9WDpFGQUeNhVsBaXM=
 			</data>
 		</dict>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
@@ -47,14 +47,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cTszbuwR40lKxJjxakAJKRUIMEC1D0N2aLefRS9ezwU=
+			WQjXTeTG0icb9dYvgQf4WXpKLdhirW9wa4YB92BDphQ=
 			</data>
 		</dict>
 		<key>Modules/SphereSDK.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UIrGZuZsiI8qWvQ/gcKouyt3Sx2kjd9QegYnOCsJ3V4=
+			LYw/xog5bGqx5zyR+5sQOfmqzrqdIWcvOVAWY0/VvlM=
 			</data>
 		</dict>
 		<key>Modules/SphereSDK.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
@@ -68,7 +68,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1JWsMG/zjXV3hyio4kgVpit/glmTeXzLX33mVw9sF7A=
+			seGI8GnNRBPrj8tpzG09CIHpYW4vvQqeEsnvtYkxvHE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ucGcPn8I9Z6XPCu5Poq7EyOifc7K3t0eY8n0mVLi+Q4=
+			XfwZjBuazFEZiMI7pDCshddkGq60KmfwBofvwglL1zA=
 			</data>
 		</dict>
 		<key>Resources/index.html</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J+C/Ev98Cn1Z6BVhkcOE8DS8Rxnn5j3EQW/joMF1vWI=
+			EZS8Ig5NpiH/9RjjAm6yK6ABjlqjFVFIqYHOekvVcEI=
 			</data>
 		</dict>
 	</dict>

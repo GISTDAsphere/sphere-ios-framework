@@ -197,7 +197,7 @@
           const secondDot = method.substring(dot + 1).indexOf('.');
           const mainMethod = method.substring(0, dot);
           const subMethod = method.substring(dot + 1);
-          const mainObject = mainMethod == 'Util' ? longdo : objectList[0];
+          const mainObject = mainMethod == 'Util' ? sphere : objectList[0];
           if (secondDot < 0) {
             commit(mainObject[mainMethod], subMethod, args, id);
           }
