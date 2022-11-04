@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		a+mdN3nIpD3xRP4xXMKPImV0Vnk=
+		z659BdrniBxWgMUtCav6+jL1RIc=
 		</data>
 		<key>Resources/index.html</key>
 		<data>
@@ -19,7 +19,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n2NU2O8ZDxfIqeAjpGemy6qhPhQKFE6zOHb9KmrNPAQ=
+			qICA7HKpksPMayGvo+VoAyGzIXoyr8LyYTzyY9Eu63g=
 			</data>
 		</dict>
 		<key>Headers/SphereSDK.h</key>
@@ -29,60 +29,88 @@
 			dODJYQ9Pdv9kFXeQZbwgsB67Nc6yHIuY47YWfePY5dM=
 			</data>
 		</dict>
+		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6/JGkE1CEQrDC0tywc2eSnuOty4FRd0lrqKgzbqbI/o=
+			</data>
+		</dict>
+		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yypy4nIHucIFtWMdzaR4gPHFB/Tn9pu4gtBvabu0ipk=
+			</data>
+		</dict>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d1Q7K5asCU7gnJEmyCyu8lXFCe9WDpFGQUeNhVsBaXM=
+			jHIYFlSQ3kZr9e+WiX1+blf5BD6r5SZMaVdMGakarKw=
 			</data>
 		</dict>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9J6sTNdkXOi56G83bR2jd66TyJ2awcscM+wDp6FgVeo=
+			yypy4nIHucIFtWMdzaR4gPHFB/Tn9pu4gtBvabu0ipk=
 			</data>
 		</dict>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WQjXTeTG0icb9dYvgQf4WXpKLdhirW9wa4YB92BDphQ=
+			rFyEBWVpIJrlzjVLyjW8vyhXhpGxLHwjVzDUKf7qGzg=
+			</data>
+		</dict>
+		<key>Modules/SphereSDK.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6/JGkE1CEQrDC0tywc2eSnuOty4FRd0lrqKgzbqbI/o=
+			</data>
+		</dict>
+		<key>Modules/SphereSDK.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JDRj0LjKAclYTo3vHBuNHAlpt07ICrxA2R3In2ExzgQ=
 			</data>
 		</dict>
 		<key>Modules/SphereSDK.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LYw/xog5bGqx5zyR+5sQOfmqzrqdIWcvOVAWY0/VvlM=
+			4uYj94uMR4Jlqne4aS6vnHzHfmEGObRoTFkWPi/0Jak=
 			</data>
 		</dict>
 		<key>Modules/SphereSDK.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UIR2sNWFcZaggUN/AftyRHMq04nT7rNlG7iqyVcOXgk=
+			JDRj0LjKAclYTo3vHBuNHAlpt07ICrxA2R3In2ExzgQ=
 			</data>
 		</dict>
 		<key>Modules/SphereSDK.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			seGI8GnNRBPrj8tpzG09CIHpYW4vvQqeEsnvtYkxvHE=
+			tZUGT5d7yDfn3+bL7aIDM+oueKfbho8AuFHGYF/iVnA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kNoQpudhP25pJDskCjTxXAFYAetXSNYNwrkzHAw40oE=
+			ScFVGu6Yvfy5TFdXh9I8mtC5tvww7/ZqxfApSVQwMoE=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XfwZjBuazFEZiMI7pDCshddkGq60KmfwBofvwglL1zA=
+			fjm5HAzFavafXrG6p3Mey33gM368rzZPfx/IWyjvXac=
 			</data>
 		</dict>
 		<key>Resources/index.html</key>

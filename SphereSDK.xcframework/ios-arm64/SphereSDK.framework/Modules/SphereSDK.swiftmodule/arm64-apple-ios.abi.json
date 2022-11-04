@@ -1,0 +1,2988 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SphereSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SphereSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "SphereSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SphereTurn",
+        "printedName": "SphereTurn",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Left",
+            "printedName": "Left",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SphereSDK.SphereTurn.Type) -> SphereSDK.SphereTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereTurn",
+                    "printedName": "SphereSDK.SphereTurn",
+                    "usr": "s:9SphereSDK0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SphereSDK.SphereTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SphereTurn",
+                        "printedName": "SphereSDK.SphereTurn",
+                        "usr": "s:9SphereSDK0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SphereSDK0A4TurnO4LeftyA2CmF",
+            "mangledName": "$s9SphereSDK0A4TurnO4LeftyA2CmF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Right",
+            "printedName": "Right",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SphereSDK.SphereTurn.Type) -> SphereSDK.SphereTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereTurn",
+                    "printedName": "SphereSDK.SphereTurn",
+                    "usr": "s:9SphereSDK0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SphereSDK.SphereTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SphereTurn",
+                        "printedName": "SphereSDK.SphereTurn",
+                        "usr": "s:9SphereSDK0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SphereSDK0A4TurnO5RightyA2CmF",
+            "mangledName": "$s9SphereSDK0A4TurnO5RightyA2CmF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SlightLeft",
+            "printedName": "SlightLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SphereSDK.SphereTurn.Type) -> SphereSDK.SphereTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereTurn",
+                    "printedName": "SphereSDK.SphereTurn",
+                    "usr": "s:9SphereSDK0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SphereSDK.SphereTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SphereTurn",
+                        "printedName": "SphereSDK.SphereTurn",
+                        "usr": "s:9SphereSDK0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SphereSDK0A4TurnO10SlightLeftyA2CmF",
+            "mangledName": "$s9SphereSDK0A4TurnO10SlightLeftyA2CmF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "SlightRight",
+            "printedName": "SlightRight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SphereSDK.SphereTurn.Type) -> SphereSDK.SphereTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereTurn",
+                    "printedName": "SphereSDK.SphereTurn",
+                    "usr": "s:9SphereSDK0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SphereSDK.SphereTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SphereTurn",
+                        "printedName": "SphereSDK.SphereTurn",
+                        "usr": "s:9SphereSDK0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SphereSDK0A4TurnO11SlightRightyA2CmF",
+            "mangledName": "$s9SphereSDK0A4TurnO11SlightRightyA2CmF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Unknown",
+            "printedName": "Unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SphereSDK.SphereTurn.Type) -> SphereSDK.SphereTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereTurn",
+                    "printedName": "SphereSDK.SphereTurn",
+                    "usr": "s:9SphereSDK0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SphereSDK.SphereTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SphereTurn",
+                        "printedName": "SphereSDK.SphereTurn",
+                        "usr": "s:9SphereSDK0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SphereSDK0A4TurnO7UnknownyA2CmF",
+            "mangledName": "$s9SphereSDK0A4TurnO7UnknownyA2CmF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Straight",
+            "printedName": "Straight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SphereSDK.SphereTurn.Type) -> SphereSDK.SphereTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereTurn",
+                    "printedName": "SphereSDK.SphereTurn",
+                    "usr": "s:9SphereSDK0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SphereSDK.SphereTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SphereTurn",
+                        "printedName": "SphereSDK.SphereTurn",
+                        "usr": "s:9SphereSDK0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SphereSDK0A4TurnO8StraightyA2CmF",
+            "mangledName": "$s9SphereSDK0A4TurnO8StraightyA2CmF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Tollway",
+            "printedName": "Tollway",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SphereSDK.SphereTurn.Type) -> SphereSDK.SphereTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereTurn",
+                    "printedName": "SphereSDK.SphereTurn",
+                    "usr": "s:9SphereSDK0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SphereSDK.SphereTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SphereTurn",
+                        "printedName": "SphereSDK.SphereTurn",
+                        "usr": "s:9SphereSDK0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SphereSDK0A4TurnO7TollwayyA2CmF",
+            "mangledName": "$s9SphereSDK0A4TurnO7TollwayyA2CmF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Arrive",
+            "printedName": "Arrive",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SphereSDK.SphereTurn.Type) -> SphereSDK.SphereTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereTurn",
+                    "printedName": "SphereSDK.SphereTurn",
+                    "usr": "s:9SphereSDK0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SphereSDK.SphereTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SphereTurn",
+                        "printedName": "SphereSDK.SphereTurn",
+                        "usr": "s:9SphereSDK0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SphereSDK0A4TurnO6ArriveyA2CmF",
+            "mangledName": "$s9SphereSDK0A4TurnO6ArriveyA2CmF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Ferry",
+            "printedName": "Ferry",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SphereSDK.SphereTurn.Type) -> SphereSDK.SphereTurn",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereTurn",
+                    "printedName": "SphereSDK.SphereTurn",
+                    "usr": "s:9SphereSDK0A4TurnO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SphereSDK.SphereTurn.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SphereTurn",
+                        "printedName": "SphereSDK.SphereTurn",
+                        "usr": "s:9SphereSDK0A4TurnO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SphereSDK0A4TurnO5FerryyA2CmF",
+            "mangledName": "$s9SphereSDK0A4TurnO5FerryyA2CmF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SphereSDK.SphereTurn?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereTurn",
+                    "printedName": "SphereSDK.SphereTurn",
+                    "usr": "s:9SphereSDK0A4TurnO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9SphereSDK0A4TurnO8rawValueACSgSi_tcfc",
+            "mangledName": "$s9SphereSDK0A4TurnO8rawValueACSgSi_tcfc",
+            "moduleName": "SphereSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SphereSDK0A4TurnO8rawValueSivp",
+            "mangledName": "$s9SphereSDK0A4TurnO8rawValueSivp",
+            "moduleName": "SphereSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SphereSDK0A4TurnO8rawValueSivg",
+                "mangledName": "$s9SphereSDK0A4TurnO8rawValueSivg",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9SphereSDK0A4TurnO",
+        "mangledName": "$s9SphereSDK0A4TurnO",
+        "moduleName": "SphereSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SphereLocale",
+        "printedName": "SphereLocale",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "English",
+            "printedName": "English",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SphereSDK.SphereLocale.Type) -> SphereSDK.SphereLocale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereLocale",
+                    "printedName": "SphereSDK.SphereLocale",
+                    "usr": "s:9SphereSDK0A6LocaleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SphereSDK.SphereLocale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SphereLocale",
+                        "printedName": "SphereSDK.SphereLocale",
+                        "usr": "s:9SphereSDK0A6LocaleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SphereSDK0A6LocaleO7EnglishyA2CmF",
+            "mangledName": "$s9SphereSDK0A6LocaleO7EnglishyA2CmF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Thai",
+            "printedName": "Thai",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SphereSDK.SphereLocale.Type) -> SphereSDK.SphereLocale",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereLocale",
+                    "printedName": "SphereSDK.SphereLocale",
+                    "usr": "s:9SphereSDK0A6LocaleO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SphereSDK.SphereLocale.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SphereLocale",
+                        "printedName": "SphereSDK.SphereLocale",
+                        "usr": "s:9SphereSDK0A6LocaleO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SphereSDK0A6LocaleO4ThaiyA2CmF",
+            "mangledName": "$s9SphereSDK0A6LocaleO4ThaiyA2CmF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SphereSDK.SphereLocale?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereLocale",
+                    "printedName": "SphereSDK.SphereLocale",
+                    "usr": "s:9SphereSDK0A6LocaleO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9SphereSDK0A6LocaleO8rawValueACSgSS_tcfc",
+            "mangledName": "$s9SphereSDK0A6LocaleO8rawValueACSgSS_tcfc",
+            "moduleName": "SphereSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SphereSDK0A6LocaleO8rawValueSSvp",
+            "mangledName": "$s9SphereSDK0A6LocaleO8rawValueSSvp",
+            "moduleName": "SphereSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SphereSDK0A6LocaleO8rawValueSSvg",
+                "mangledName": "$s9SphereSDK0A6LocaleO8rawValueSSvg",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9SphereSDK0A6LocaleO",
+        "mangledName": "$s9SphereSDK0A6LocaleO",
+        "moduleName": "SphereSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Sphere",
+        "printedName": "Sphere",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SphereSDK0A0C6apiKeySSvp",
+            "mangledName": "$s9SphereSDK0A0C6apiKeySSvp",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SphereSDK0A0C6apiKeySSvg",
+                "mangledName": "$s9SphereSDK0A0C6apiKeySSvg",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SphereSDK0A0C6apiKeySSvs",
+                "mangledName": "$s9SphereSDK0A0C6apiKeySSvs",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SphereSDK0A0C6apiKeySSvM",
+                "mangledName": "$s9SphereSDK0A0C6apiKeySSvM",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "server",
+            "printedName": "server",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SphereSDK0A0C6serverSSvp",
+            "mangledName": "$s9SphereSDK0A0C6serverSSvp",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SphereSDK0A0C6serverSSvg",
+                "mangledName": "$s9SphereSDK0A0C6serverSSvg",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SphereSDK0A0C6serverSSvs",
+                "mangledName": "$s9SphereSDK0A0C6serverSSvs",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SphereSDK0A0C6serverSSvM",
+                "mangledName": "$s9SphereSDK0A0C6serverSSvM",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "options",
+            "printedName": "options",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Option",
+                "printedName": "SphereSDK.Sphere.Option",
+                "usr": "s:9SphereSDK0A0C6OptionC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SphereSDK0A0C7optionsAC6OptionCvp",
+            "mangledName": "$s9SphereSDK0A0C7optionsAC6OptionCvp",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Option",
+                    "printedName": "SphereSDK.Sphere.Option",
+                    "usr": "s:9SphereSDK0A0C6OptionC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SphereSDK0A0C7optionsAC6OptionCvg",
+                "mangledName": "$s9SphereSDK0A0C7optionsAC6OptionCvg",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Option",
+                    "printedName": "SphereSDK.Sphere.Option",
+                    "usr": "s:9SphereSDK0A0C6OptionC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SphereSDK0A0C7optionsAC6OptionCvs",
+                "mangledName": "$s9SphereSDK0A0C7optionsAC6OptionCvs",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SphereSDK0A0C7optionsAC6OptionCvM",
+                "mangledName": "$s9SphereSDK0A0C7optionsAC6OptionCvM",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Option",
+            "printedName": "Option",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "layer",
+                "printedName": "layer",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereStatic",
+                    "printedName": "SphereSDK.Sphere.SphereStatic",
+                    "usr": "s:9SphereSDK0A0C0A6StaticV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9SphereSDK0A0C6OptionC5layerAC0A6StaticVvp",
+                "mangledName": "$s9SphereSDK0A0C6OptionC5layerAC0A6StaticVvp",
+                "moduleName": "SphereSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SphereStatic",
+                        "printedName": "SphereSDK.Sphere.SphereStatic",
+                        "usr": "s:9SphereSDK0A0C0A6StaticV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC5layerAC0A6StaticVvg",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC5layerAC0A6StaticVvg",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SphereStatic",
+                        "printedName": "SphereSDK.Sphere.SphereStatic",
+                        "usr": "s:9SphereSDK0A0C0A6StaticV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC5layerAC0A6StaticVvs",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC5layerAC0A6StaticVvs",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC5layerAC0A6StaticVvM",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC5layerAC0A6StaticVvM",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "zoom",
+                "printedName": "zoom",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9SphereSDK0A0C6OptionC4zoomSivp",
+                "mangledName": "$s9SphereSDK0A0C6OptionC4zoomSivp",
+                "moduleName": "SphereSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC4zoomSivg",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC4zoomSivg",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC4zoomSivs",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC4zoomSivs",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC4zoomSivM",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC4zoomSivM",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "zoomRange",
+                "printedName": "zoomRange",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ClosedRange",
+                    "printedName": "Swift.ClosedRange<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:SN"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9SphereSDK0A0C6OptionC9zoomRangeSNySiGvp",
+                "mangledName": "$s9SphereSDK0A0C6OptionC9zoomRangeSNySiGvp",
+                "moduleName": "SphereSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClosedRange",
+                        "printedName": "Swift.ClosedRange<Swift.Int>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:SN"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC9zoomRangeSNySiGvg",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC9zoomRangeSNySiGvg",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ClosedRange",
+                        "printedName": "Swift.ClosedRange<Swift.Int>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:SN"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC9zoomRangeSNySiGvs",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC9zoomRangeSNySiGvs",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC9zoomRangeSNySiGvM",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC9zoomRangeSNySiGvM",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "location",
+                "printedName": "location",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocationCoordinate2D",
+                    "printedName": "CoreLocation.CLLocationCoordinate2D",
+                    "usr": "c:@S@CLLocationCoordinate2D"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9SphereSDK0A0C6OptionC8locationSo22CLLocationCoordinate2DVvp",
+                "mangledName": "$s9SphereSDK0A0C6OptionC8locationSo22CLLocationCoordinate2DVvp",
+                "moduleName": "SphereSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLLocationCoordinate2D",
+                        "printedName": "CoreLocation.CLLocationCoordinate2D",
+                        "usr": "c:@S@CLLocationCoordinate2D"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC8locationSo22CLLocationCoordinate2DVvg",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC8locationSo22CLLocationCoordinate2DVvg",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLLocationCoordinate2D",
+                        "printedName": "CoreLocation.CLLocationCoordinate2D",
+                        "usr": "c:@S@CLLocationCoordinate2D"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC8locationSo22CLLocationCoordinate2DVvs",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC8locationSo22CLLocationCoordinate2DVvs",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC8locationSo22CLLocationCoordinate2DVvM",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC8locationSo22CLLocationCoordinate2DVvM",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "lastView",
+                "printedName": "lastView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9SphereSDK0A0C6OptionC8lastViewSbvp",
+                "mangledName": "$s9SphereSDK0A0C6OptionC8lastViewSbvp",
+                "moduleName": "SphereSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC8lastViewSbvg",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC8lastViewSbvg",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC8lastViewSbvs",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC8lastViewSbvs",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC8lastViewSbvM",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC8lastViewSbvM",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "onReady",
+                "printedName": "onReady",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9SphereSDK0A0C6OptionC7onReadyyycSgvp",
+                "mangledName": "$s9SphereSDK0A0C6OptionC7onReadyyycSgvp",
+                "moduleName": "SphereSDK",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(() -> ())?",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "() -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              }
+                            ]
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC7onReadyyycSgvg",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC7onReadyyycSgvg",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(() -> ())?",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "() -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              }
+                            ]
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC7onReadyyycSgvs",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC7onReadyyycSgvs",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C6OptionC7onReadyyycSgvM",
+                    "mangledName": "$s9SphereSDK0A0C6OptionC7onReadyyycSgvM",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Option",
+                    "printedName": "SphereSDK.Sphere.Option",
+                    "usr": "s:9SphereSDK0A0C6OptionC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9SphereSDK0A0C6OptionCAEycfc",
+                "mangledName": "$s9SphereSDK0A0C6OptionCAEycfc",
+                "moduleName": "SphereSDK",
+                "overriding": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override",
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "toDictionary",
+                "printedName": "toDictionary()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9SphereSDK0A0C6OptionC12toDictionarySDySSypGyF",
+                "mangledName": "$s9SphereSDK0A0C6OptionC12toDictionarySDySSypGyF",
+                "moduleName": "SphereSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:9SphereSDK0A0C6OptionC",
+            "mangledName": "$s9SphereSDK0A0C6OptionC",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "inheritsConvenienceInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SphereStatic",
+            "printedName": "SphereStatic",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "type",
+                "printedName": "type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9SphereSDK0A0C0A6StaticV4typeSSvp",
+                "mangledName": "$s9SphereSDK0A0C0A6StaticV4typeSSvp",
+                "moduleName": "SphereSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C0A6StaticV4typeSSvg",
+                    "mangledName": "$s9SphereSDK0A0C0A6StaticV4typeSSvg",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "name",
+                "printedName": "name",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9SphereSDK0A0C0A6StaticV4nameSSvp",
+                "mangledName": "$s9SphereSDK0A0C0A6StaticV4nameSSvp",
+                "moduleName": "SphereSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C0A6StaticV4nameSSvg",
+                    "mangledName": "$s9SphereSDK0A0C0A6StaticV4nameSSvg",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9SphereSDK0A0C0A6StaticV9hashValueSivp",
+                "mangledName": "$s9SphereSDK0A0C0A6StaticV9hashValueSivp",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C0A6StaticV9hashValueSivg",
+                    "mangledName": "$s9SphereSDK0A0C0A6StaticV9hashValueSivg",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9SphereSDK0A0C0A6StaticV4hash4intoys6HasherVz_tF",
+                "mangledName": "$s9SphereSDK0A0C0A6StaticV4hash4intoys6HasherVz_tF",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereStatic",
+                    "printedName": "SphereSDK.Sphere.SphereStatic",
+                    "usr": "s:9SphereSDK0A0C0A6StaticV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereStatic",
+                    "printedName": "SphereSDK.Sphere.SphereStatic",
+                    "usr": "s:9SphereSDK0A0C0A6StaticV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9SphereSDK0A0C0A6StaticV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s9SphereSDK0A0C0A6StaticV2eeoiySbAE_AEtFZ",
+                "moduleName": "SphereSDK",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9SphereSDK0A0C0A6StaticV",
+            "mangledName": "$s9SphereSDK0A0C0A6StaticV",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SphereFunction",
+            "printedName": "SphereFunction",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9SphereSDK0A0C0A8FunctionV9hashValueSivp",
+                "mangledName": "$s9SphereSDK0A0C0A8FunctionV9hashValueSivp",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C0A8FunctionV9hashValueSivg",
+                    "mangledName": "$s9SphereSDK0A0C0A8FunctionV9hashValueSivg",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9SphereSDK0A0C0A8FunctionV4hash4intoys6HasherVz_tF",
+                "mangledName": "$s9SphereSDK0A0C0A8FunctionV4hash4intoys6HasherVz_tF",
+                "moduleName": "SphereSDK",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereFunction",
+                    "printedName": "SphereSDK.Sphere.SphereFunction",
+                    "usr": "s:9SphereSDK0A0C0A8FunctionV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereFunction",
+                    "printedName": "SphereSDK.Sphere.SphereFunction",
+                    "usr": "s:9SphereSDK0A0C0A8FunctionV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9SphereSDK0A0C0A8FunctionV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s9SphereSDK0A0C0A8FunctionV2eeoiySbAE_AEtFZ",
+                "moduleName": "SphereSDK",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9SphereSDK0A0C0A8FunctionV",
+            "mangledName": "$s9SphereSDK0A0C0A8FunctionV",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SphereObject",
+            "printedName": "SphereObject",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereObject",
+                    "printedName": "SphereSDK.Sphere.SphereObject",
+                    "usr": "s:9SphereSDK0A0C0A6ObjectV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SphereObject",
+                    "printedName": "SphereSDK.Sphere.SphereObject",
+                    "usr": "s:9SphereSDK0A0C0A6ObjectV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9SphereSDK0A0C0A6ObjectV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s9SphereSDK0A0C0A6ObjectV2eeoiySbAE_AEtFZ",
+                "moduleName": "SphereSDK",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "type",
+                "printedName": "type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9SphereSDK0A0C0A6ObjectV4typeSSvp",
+                "mangledName": "$s9SphereSDK0A0C0A6ObjectV4typeSSvp",
+                "moduleName": "SphereSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9SphereSDK0A0C0A6ObjectV4typeSSvg",
+                    "mangledName": "$s9SphereSDK0A0C0A6ObjectV4typeSSvg",
+                    "moduleName": "SphereSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9SphereSDK0A0C0A6ObjectV",
+            "mangledName": "$s9SphereSDK0A0C0A6ObjectV",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "createSphereStatic",
+            "printedName": "createSphereStatic(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SphereStatic",
+                "printedName": "SphereSDK.Sphere.SphereStatic",
+                "usr": "s:9SphereSDK0A0C0A6StaticV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SphereSDK0A0C06createA6Static_4withAC0aD0VSS_SStF",
+            "mangledName": "$s9SphereSDK0A0C06createA6Static_4withAC0aD0VSS_SStF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createSphereObject",
+            "printedName": "createSphereObject(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SphereObject",
+                "printedName": "SphereSDK.Sphere.SphereObject",
+                "usr": "s:9SphereSDK0A0C0A6ObjectV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SphereSDK0A0C06createA6Object_4withAC0aD0VSS_SayypGtF",
+            "mangledName": "$s9SphereSDK0A0C06createA6Object_4withAC0aD0VSS_SayypGtF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createSphereFunction",
+            "printedName": "createSphereFunction(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SphereFunction",
+                "printedName": "SphereSDK.Sphere.SphereFunction",
+                "usr": "s:9SphereSDK0A0C0A8FunctionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SphereSDK0A0C06createA8FunctionyAC0aD0VSSF",
+            "mangledName": "$s9SphereSDK0A0C06createA8FunctionyAC0aD0VSSF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Sphere",
+                "printedName": "SphereSDK.Sphere",
+                "usr": "c:@M@SphereSDK@objc(cs)Sphere"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SphereSDK@objc(cs)Sphere(im)initWithFrame:configuration:",
+            "mangledName": "$s9SphereSDK0A0C5frame13configurationACSo6CGRectV_So22WKWebViewConfigurationCtcfc",
+            "moduleName": "SphereSDK",
+            "overriding": true,
+            "objc_name": "initWithFrame:configuration:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SphereSDK0A0C6renderyyF",
+            "mangledName": "$s9SphereSDK0A0C6renderyyF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SphereSDK@objc(cs)Sphere(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s9SphereSDK0A0C21userContentController_10didReceiveySo06WKUserdE0C_So15WKScriptMessageCtF",
+            "moduleName": "SphereSDK",
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "call",
+            "printedName": "call(method:args:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SphereSDK0A0C4call6method4args17completionHandlerypSgSS_SayypGSgyAHctF",
+            "mangledName": "$s9SphereSDK0A0C4call6method4args17completionHandlerypSgSS_SayypGSgyAHctF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "call",
+            "printedName": "call(method:args:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SphereSDK0A0C4call6method4argsypSgSS_SayypGSgtF",
+            "mangledName": "$s9SphereSDK0A0C4call6method4argsypSgSS_SayypGSgtF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "objectCall",
+            "printedName": "objectCall(sphereObject:method:args:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SphereObject",
+                "printedName": "SphereSDK.Sphere.SphereObject",
+                "usr": "s:9SphereSDK0A0C0A6ObjectV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SphereSDK0A0C10objectCall12sphereObject6method4argsypSgAC0aF0V_SSSayypGSgtF",
+            "mangledName": "$s9SphereSDK0A0C10objectCall12sphereObject6method4argsypSgAC0aF0V_SSSayypGSgtF",
+            "moduleName": "SphereSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SphereSDK@objc(cs)Sphere",
+        "mangledName": "$s9SphereSDK0A0C",
+        "moduleName": "SphereSDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "IBDesignable",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)WKWebView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "WebKit.WKWebView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 266,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 355,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 407,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 455,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 498,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 578,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 622,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 266,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 355,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 407,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 455,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 498,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 578,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 622,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 266,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 355,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 407,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 455,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 498,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 578,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 622,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 758,
+      "length": 4,
+      "value": "\"th\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 758,
+      "length": 4,
+      "value": "\"th\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 951,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 984,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1014,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1067,
+      "length": 34,
+      "value": "\"fortestonlydonotuseinproduction!\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1153,
+      "length": 34,
+      "value": "\"api.sphere-dev.gistda.or.th\/map\/\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "Dictionary",
+      "offset": 1317,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "Dictionary",
+      "offset": 1361,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "Dictionary",
+      "offset": 1410,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 3310,
+      "length": 9,
+      "value": "\"$static\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 3310,
+      "length": 9,
+      "value": "\"$static\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 4124,
+      "length": 11,
+      "value": "\"$function\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 4124,
+      "length": 11,
+      "value": "\"$function\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 4983,
+      "length": 9,
+      "value": "\"$object\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 5015,
+      "length": 5,
+      "value": "\"$id\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 4983,
+      "length": 9,
+      "value": "\"$object\""
+    },
+    {
+      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 5015,
+      "length": 5,
+      "value": "\"$id\""
+    }
+  ]
+}

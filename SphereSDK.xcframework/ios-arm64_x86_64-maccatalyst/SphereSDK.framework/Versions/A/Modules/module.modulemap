@@ -6,6 +6,6 @@ framework module SphereSDK {
 }
 
 module SphereSDK.Swift {
-    header "SphereSDK-Swift.h"
-    requires objc
+  header "SphereSDK-Swift.h"
+  requires objc
 }
