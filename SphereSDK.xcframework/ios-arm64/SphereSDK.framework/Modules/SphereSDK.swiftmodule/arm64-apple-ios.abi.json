@@ -2897,90 +2897,90 @@
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
       "offset": 1067,
-      "length": 34,
-      "value": "\"fortestonlydonotuseinproduction!\""
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1153,
-      "length": 34,
-      "value": "\"api.sphere-dev.gistda.or.th\/map\/\""
+      "offset": 1121,
+      "length": 30,
+      "value": "\"api.sphere.gistda.or.th\/map\/\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "Dictionary",
-      "offset": 1317,
+      "offset": 1281,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "Dictionary",
-      "offset": 1361,
+      "offset": 1325,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "Dictionary",
-      "offset": 1410,
+      "offset": 1374,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3310,
+      "offset": 3273,
       "length": 9,
       "value": "\"$static\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3310,
+      "offset": 3273,
       "length": 9,
       "value": "\"$static\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4124,
+      "offset": 4087,
       "length": 11,
       "value": "\"$function\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4124,
+      "offset": 4087,
       "length": 11,
       "value": "\"$function\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4983,
+      "offset": 4946,
       "length": 9,
       "value": "\"$object\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 5015,
+      "offset": 4978,
       "length": 5,
       "value": "\"$id\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4983,
+      "offset": 4946,
       "length": 9,
       "value": "\"$object\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 5015,
+      "offset": 4978,
       "length": 5,
       "value": "\"$id\""
     }

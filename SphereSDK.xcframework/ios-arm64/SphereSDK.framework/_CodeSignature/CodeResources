@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zdVcylix1KCAQwM8j6cH8fhGcKA=
+		/ZpAbPss2rAPhcuX+7vYFDZzE84=
 		</data>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		BYCC9F5iE5e60Gbr3ZGvh8dgPbc=
+		1BXGGe0GkNRRMLJsXeQW5JZCScM=
 		</data>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		DrSFgXITdpQO2Ioni6rcmPgG+5Y=
+		RmWNjNKIF7VwZ5ECZirA+OjIvkg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,7 +65,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ujE+oXUk5rsA9DXD8UyHUA7T28gpQxrvQShBpDcbjUU=
+			7qeBKEQ9WMVmBevRwPuwPqy9fKi7vxccwtl3KLF6ARk=
 			</data>
 		</dict>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5udDXNSU61SZqEO5PAwnHgo2URpjMeyuxeyghNQORIA=
+			23fKKCTP0hgqA9z059zzZUdMgA61uj7pnUEdvhbBmE0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
