@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SphereSDK-Swift.h</key>
 		<data>
-		H2o2E9zUV51reST9gn45HVicsCQ=
+		+UzVcjY9b/xO/7UwVUdc4L5vENs=
 		</data>
 		<key>Headers/SphereSDK.h</key>
 		<data>
@@ -14,35 +14,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Gn+t+OtyJlR09xTSU16jBy2ZGn4=
+		SUQnVYeHGgmey7Ul5Qrtp+m+Pcc=
 		</data>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		1BXGGe0GkNRRMLJsXeQW5JZCScM=
+		E7YTwQikWeM9Pg/y0YwttDz+FSU=
 		</data>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		NMJE6Zow/xAyOLf+xT0LQBVtgUw=
+		kpzL7uac/VxHaWmFFb8QjksbKtQ=
 		</data>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		X6svhBudnfQF2P7yLRuTvvmvI3E=
+		RnsAwqC6Hy4EZaOlTMQgJaSm2Ck=
 		</data>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NMJE6Zow/xAyOLf+xT0LQBVtgUw=
+		kpzL7uac/VxHaWmFFb8QjksbKtQ=
 		</data>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		RmWNjNKIF7VwZ5ECZirA+OjIvkg=
+		T+XstJpZCT4+2yMPYJVHlx4Ax9Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		fVphCdB8duIktrec2vYy6cv85ns=
+		I6TjQOVnGPzEB+A366DmVQNe4rQ=
 		</data>
 		<key>index.html</key>
 		<data>
-		23kzpZP3ad5T5c5DTZFwkcEKE4w=
+		U3lwkncABMnMFZE0zZzxN3AXmQ4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eRX+JMgvR7BjzbcgXaOeSc3LBVAesP8qXrEW63hK+eo=
+			MXCBTmdMmU7tCFBvtzbwVe5x2Jh4VAEkQsW6WARVxiU=
 			</data>
 		</dict>
 		<key>Headers/SphereSDK.h</key>
@@ -65,49 +65,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7qeBKEQ9WMVmBevRwPuwPqy9fKi7vxccwtl3KLF6ARk=
+			ZCi9ClFfZ1OePXuCioUyQaqtjrDj0XunW/chC1+4Fe4=
 			</data>
 		</dict>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i0D8512S8TQs3s//S22XA5gpBdao91eefFItJM/YPbU=
+			Rp1OEFsqIPbVELJ1nyLx4bkzXb1bsApQ7EGSZLUyXtc=
 			</data>
 		</dict>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D/dS/iWkvMjSfqPPglmqsCG+TTBZ2ZEY4ZUJCK2PY08=
+			YRrA0wjhddB/eYtXqU5ej1r36GMOapnChw7vyrcbZ/A=
 			</data>
 		</dict>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i0D8512S8TQs3s//S22XA5gpBdao91eefFItJM/YPbU=
+			Rp1OEFsqIPbVELJ1nyLx4bkzXb1bsApQ7EGSZLUyXtc=
 			</data>
 		</dict>
 		<key>Modules/SphereSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			23fKKCTP0hgqA9z059zzZUdMgA61uj7pnUEdvhbBmE0=
+			H8OohH/o905FskfusurfMjofOvFCfjeO/gu4NkqVkBk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ScFVGu6Yvfy5TFdXh9I8mtC5tvww7/ZqxfApSVQwMoE=
+			sNXt6DMvqCZdJAElzwdSg0YC0UW2EcQCOXt5Uwfbzzg=
 			</data>
 		</dict>
 		<key>index.html</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qiSP2lLGbb4TJlYxRCYvJMmtLhK9DTbpuckBlgGPheo=
+			2vuBhWgjgkbL+ARSzlJfzatmp1xVTLyYUSDPAUZ54B4=
 			</data>
 		</dict>
 	</dict>

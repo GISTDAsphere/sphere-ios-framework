@@ -8,44 +8,54 @@
       html { height: 100% }
       body { height: 100%; margin: 0; padding: 0; font: 12px/1.2 sans-serif; }
       #map { width: 100%; height: 100%; }
-      .mapboxgl-ctrl-top-left {
-        top: env(safe-area-inset-top) !important;
-        left: env(safe-area-inset-left) !important;
+      .maplibregl-ctrl-top-left  {
+          top: env(safe-area-inset-top) !important;
+          left: env(safe-area-inset-left) !important;
+          -webkit-user-select: none;
       }
-      .mapboxgl-ctrl-top-right {
-        top: env(safe-area-inset-top) !important;
-        right: env(safe-area-inset-right) !important;
+      .maplibregl-ctrl-top-right {
+          top: env(safe-area-inset-top) !important;
+          right: env(safe-area-inset-right) !important;
+          -webkit-user-select: none;
       }
-      .mapboxgl-ctrl-bottom-left {
-        bottom: env(safe-area-inset-bottom) !important;
-        left: env(safe-area-inset-left) !important;
+      .maplibregl-ctrl-bottom-left {
+          bottom: env(safe-area-inset-bottom) !important;
+          left: env(safe-area-inset-left) !important;
+          -webkit-user-select: none;
       }
-      .mapboxgl-ctrl-bottom-right {
-        bottom: env(safe-area-inset-bottom) !important;
-        right: env(safe-area-inset-right) !important;
+      .maplibregl-ctrl-bottom-right {
+          bottom: env(safe-area-inset-bottom) !important;
+          right: env(safe-area-inset-right) !important;
+          -webkit-user-select: none;
       }
       #error-message {
-        position: absolute;
-        top: env(safe-area-inset-top) !important;
-        left: env(safe-area-inset-left) !important;
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
       }
     </style>
     <script src="https://${Const.server}?key=${Const.apiKey}"></script>
     <script>
       let objectList = [];
+      let bindFunc = {};
+      let serializeProps = ['path', '_geojson', 'geometry', 'coordinates'];
+      let removedProps = ['_handler', '_map'];
+      
       function init() {
         const placeholder = document.getElementById('map');
         if (!window.sphere) {
           placeholder.innerHTML = '<div id="error-message">' + (navigator.onLine
-            ? '<h4>UNREGISTERED APP</h4><strong>ID</strong>: ${Const.bundleId}'
-            : 'Not connected to network') + '</div>';
+            ? `<h4>UNREGISTERED APP</h4><strong>ID</strong>: ${Const.bundleId}`
+            : 'No Internet Connection.') + '</div>';
           return;
         }
         console.log = (t) => {
           if (t.line && t.message && t.column) {
             window.webkit.messageHandlers.log.postMessage({
               "log": JSON.stringify([
-                t.message + ' #L' + t.line + ':' + t.column
+                `${t.message} #L${t.line}:${t.column}`
               ])
             });
           }
@@ -54,8 +64,13 @@
           }
         }
         onerror = (message, source, lineno, colno) => {
-          console.log(message + ' @ ' + source + '#L' + lineno + ':' + colno);
-          return true;
+          if (lineno === 0) {
+            console.log('Unexpected Error.');
+          }
+          else {
+            console.log(`${message} @ ${source}#L${lineno}:${colno}`);
+            return true;
+          }
         };
         const props = ${Const.props};
         
@@ -69,31 +84,34 @@
           language: props.language,
           placeholder: placeholder
         });
-        map.Ui.Geolocation?.visible(false);
-        if (props.ready) {
-          try {
-            const result = serialize(
-              map.Event.bind(
-                "ready",
-                data => window.webkit.messageHandlers.event.postMessage({
+        
+        map.Event.bind(
+          sphere.EventName.Ready,
+          data => {
+            try {
+              map.Ui.Geolocation?.visible(false);
+              serializeProps = serializeProps.concat(Object.keys(map.Ui));
+              if (props.ready) {
+                window.webkit.messageHandlers.event.postMessage({
                   "id": props.ready,
                   "data": JSON.stringify([serialize(data)])
-                })
-              )
-            );
-          } catch (e) {
-            console.log(e);
+                });
+              }
+            } catch (e) {
+              console.log(e);
+            }
           }
-        }
+        );
         map.toJSON = map.Overlays.toJSON = map.Ui.toJSON = () => ({});
         objectList[0] = map;
       }
+        
       function parse(data) {
         if (!data) return data;
         if (data.$static) {
           let value = sphere[data.$static][data.name];
-          if (!value) {
-            console.log('warning: ' + data.$static + '.' + data.name + ' is undefined.');
+          if (value === undefined) {
+            console.log(`warning: ${data.$static}.${data.name} is undefined.`);
           }
           return value;
         }
@@ -118,7 +136,7 @@
         if (typeof(data) === 'object') {
           let object = {};
           for (i in data) {
-            if (i == 'change') {
+            if (i === 'change') {
               const id = data[i];
               object[i] = (from, to) => window.webkit.messageHandlers.change.postMessage({
                 "from": JSON.stringify(serialize(from)),
@@ -134,26 +152,39 @@
         }
         return data;
       }
+        
       function serialize(object) {
         if (!object) return object;
         if (object.$id) return { $object: 'true', $id: object.$id };
+        if (object._geojson) return serialize(object._geojson);
         if (object.active || object.insert) {
           object.$id = objectList.length;
           objectList.push(object);
           return { $object: 'wait', $id: object.$id, $data: object };
         }
         if (Array.isArray(object)) {
-          for (let i = 0; i < object.length; ++i) {
-            object[i] = serialize(object[i]);
-          }
+          return object.map(serialize);
+        }
+        if (object && typeof object === 'object') {
+          Object.keys(object).forEach(key => {
+            if (serializeProps.includes(key)) {
+              object[key] = serialize(object[key]);
+            }
+            else if (removedProps.includes(key)) {
+              object[key] = null;
+            }
+          });
         }
         return object;
       }
+        
       function call(id, method, args) {
         const dot = method.indexOf('.');
-        if (dot < 0) {
+        if (method === 'Ui.add') {
+          console.log('Method Ui.add is currently not available.');
+        } else if (dot < 0) {
           commit(objectList[0], method, args, id);
-        } else if (method == 'Tags.add' && (!args || args.length == 0)) {
+        } else if (method === 'Tags.add' && (!args || args.length === 0)) {
           try {
             const result = serialize(
               objectList[0].Tags.add(
@@ -175,17 +206,32 @@
             });
             console.log(e);
           }
-        } else if (method == 'Event.bind' && args.length > 0) {
+        } else if (method === 'Event.bind' && args.length > 0) {
           try {
-            const result = serialize(
-              objectList[0].Event.bind(
-                args[0],
-                data => window.webkit.messageHandlers.event.postMessage({
-                  "id": id,
-                  "data": JSON.stringify([serialize(data)])
-                })
-              )
-            );
+            let fn = (...params) => {
+              let data;
+              if (params.length === 0) {
+                data = null;
+              }
+              else if (params.length === 1) {
+                data = params[0];
+              }
+              else {
+                data = params.map(el => el || 'null');
+              }
+              window.webkit.messageHandlers.event.postMessage({
+                "id": id,
+                "data": JSON.stringify([serialize(data)])
+              });
+              return args[1];
+            };
+            if (!bindFunc[args[0]]) {
+              bindFunc[args[0]] = [fn];
+            }
+            else {
+              bindFunc[args[0]].push(fn);
+            }
+            const result = serialize(objectList[0].Event.bind(args[0], fn));
             window.webkit.messageHandlers.commit.postMessage({
               "result": JSON.stringify([result]) || null,
               "id": id
@@ -197,12 +243,25 @@
             });
             console.log(e);
           }
+        } else if (method === 'Event.unbind' && args.length > 0) {
+          try {
+            const eventName = parse(args[0]);
+            for (let fn of bindFunc[eventName] || []) {
+              serialize(objectList[0].Event.unbind(eventName, fn));
+            }
+          } catch (e) {
+            console.log(e);
+          }
+          window.webkit.messageHandlers.commit.postMessage({
+            "result": null,
+            "id": id
+          });
         } else {
           const secondDot = method.substring(dot + 1).indexOf('.');
           const mainMethod = method.substring(0, dot);
           const subMethod = method.substring(dot + 1);
-          const mainObject = mainMethod == 'Util' ? sphere : objectList[0];
-          if (secondDot < 0) {
+          const mainObject = mainMethod === 'Util' ? sphere : objectList[0];
+          if (secondDot === -1) {
             commit(mainObject[mainMethod], subMethod, args, id);
           }
           else {
@@ -210,14 +269,16 @@
           }
         }
       }
+        
       function objectCall(id, object, method, args) {
         commit(parse(object), method, args, id);
       }
+        
       function commit(executor, method, args, id) {
         if (executor && executor[method]) {
           try {
             const result = serialize(executor[method](...args.map(parse)));
-            if (result && typeof(result.then) == 'function') {
+            if (result && typeof(result.then) === 'function') {
               result.then(data =>
                 window.webkit.messageHandlers.event.postMessage({
                   "id": id,
@@ -242,9 +303,10 @@
             "result": null,
             "id": id
           });
-          console.log('Method ' + method + ' not found.');
+          console.log(`Method ${method} not found.`);
         }
       }
+        
       function moveObject(from, to) {
         objectList[from].$id = to;
         objectList[to] = objectList[from];

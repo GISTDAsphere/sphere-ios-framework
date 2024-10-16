@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "SphereSDK",
+    "printedName": "SphereSDK",
     "children": [
       {
         "kind": "Import",
@@ -19,7 +19,10 @@
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
-        "moduleName": "SphereSDK"
+        "moduleName": "SphereSDK",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
       },
       {
         "kind": "Import",
@@ -478,6 +481,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -684,6 +701,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -742,8 +773,9 @@
             "mangledName": "$s9SphereSDK0A0C6apiKeySSvp",
             "moduleName": "SphereSDK",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
@@ -830,8 +862,9 @@
             "mangledName": "$s9SphereSDK0A0C6serverSSvp",
             "moduleName": "SphereSDK",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
@@ -918,8 +951,9 @@
             "mangledName": "$s9SphereSDK0A0C7optionsAC6OptionCvp",
             "moduleName": "SphereSDK",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
@@ -986,6 +1020,88 @@
                 "moduleName": "SphereSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isInspectable",
+            "printedName": "isInspectable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SphereSDK@objc(cs)Sphere(py)inspectable",
+            "mangledName": "$s9SphereSDK0A0C13isInspectableSbvp",
+            "moduleName": "SphereSDK",
+            "overriding": true,
+            "objc_name": "inspectable",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SphereSDK@objc(cs)Sphere(im)isInspectable",
+                "mangledName": "$s9SphereSDK0A0C13isInspectableSbvg",
+                "moduleName": "SphereSDK",
+                "overriding": true,
+                "objc_name": "isInspectable",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SphereSDK@objc(cs)Sphere(im)setInspectable:",
+                "mangledName": "$s9SphereSDK0A0C13isInspectableSbvs",
+                "moduleName": "SphereSDK",
+                "overriding": true,
+                "objc_name": "setInspectable:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
               }
             ]
           },
@@ -1670,6 +1786,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -1922,6 +2052,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Hashable",
                 "printedName": "Hashable",
                 "usr": "s:SH",
@@ -2049,6 +2193,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Hashable",
                 "printedName": "Hashable",
                 "usr": "s:SH",
@@ -2159,6 +2317,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2195,6 +2367,7 @@
             "mangledName": "$s9SphereSDK0A0C06createA6Static_4withAC0aD0VSS_SStF",
             "moduleName": "SphereSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2237,6 +2410,7 @@
             "mangledName": "$s9SphereSDK0A0C06createA6Object_4withAC0aD0VSS_SayypGtF",
             "moduleName": "SphereSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2266,6 +2440,7 @@
             "mangledName": "$s9SphereSDK0A0C06createA8FunctionyAC0aD0VSSF",
             "moduleName": "SphereSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2286,7 +2461,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CGRect",
-                "printedName": "CoreGraphics.CGRect",
+                "printedName": "CoreFoundation.CGRect",
                 "usr": "c:@S@CGRect"
               },
               {
@@ -2305,6 +2480,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override",
@@ -2328,6 +2504,62 @@
             "mangledName": "$s9SphereSDK0A0C6renderyyF",
             "moduleName": "SphereSDK",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SphereSDK@objc(cs)Sphere(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s9SphereSDK0A0C7webView_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0klF0VctF",
+            "moduleName": "SphereSDK",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2364,6 +2596,7 @@
             "objc_name": "userContentController:didReceiveScriptMessage:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2445,6 +2678,7 @@
             "mangledName": "$s9SphereSDK0A0C4call6method4args17completionHandlerypSgSS_SayypGSgyAHctF",
             "moduleName": "SphereSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2502,6 +2736,7 @@
             "mangledName": "$s9SphereSDK0A0C4call6method4argsypSgSS_SayypGSgtF",
             "moduleName": "SphereSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2565,6 +2800,7 @@
             "mangledName": "$s9SphereSDK0A0C10objectCall12sphereObject6method4argsypSgAC0aF0V_SSSayypGSgtF",
             "moduleName": "SphereSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -2577,6 +2813,7 @@
         "mangledName": "$s9SphereSDK0A0C",
         "moduleName": "SphereSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "IBDesignable",
@@ -2593,6 +2830,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2644,6 +2895,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -2658,329 +2916,161 @@
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 266,
+      "offset": 282,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 305,
+      "offset": 321,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 355,
+      "offset": 371,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 407,
+      "offset": 423,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 455,
+      "offset": 471,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 498,
+      "offset": 514,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 542,
+      "offset": 558,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 578,
+      "offset": 594,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 622,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 266,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 305,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 355,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 407,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 455,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 498,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 542,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 578,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 622,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 266,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 305,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 355,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 407,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 455,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 498,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 542,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 578,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "IntegerLiteral",
-      "offset": 622,
+      "offset": 638,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 723,
+      "offset": 739,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 758,
-      "length": 4,
-      "value": "\"th\""
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 723,
-      "length": 4,
-      "value": "\"en\""
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 758,
+      "offset": 774,
       "length": 4,
       "value": "\"th\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 951,
+      "offset": 967,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 984,
+      "offset": 1000,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1014,
+      "offset": 1030,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1067,
+      "offset": 1083,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1121,
+      "offset": 1137,
       "length": 30,
       "value": "\"api.sphere.gistda.or.th\/map\/\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "Dictionary",
-      "offset": 1281,
+      "offset": 1297,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "Dictionary",
-      "offset": 1325,
+      "offset": 1341,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "Dictionary",
-      "offset": 1374,
+      "offset": 1390,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3273,
+      "offset": 3406,
       "length": 9,
       "value": "\"$static\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3273,
-      "length": 9,
-      "value": "\"$static\""
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 4087,
+      "offset": 4220,
       "length": 11,
       "value": "\"$function\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4087,
-      "length": 11,
-      "value": "\"$function\""
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 4946,
+      "offset": 5079,
       "length": 9,
       "value": "\"$object\""
     },
     {
       "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
       "kind": "StringLiteral",
-      "offset": 4978,
-      "length": 5,
-      "value": "\"$id\""
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 4946,
-      "length": 9,
-      "value": "\"$object\""
-    },
-    {
-      "filePath": "\/Users\/mmstaff\/Documents\/sphere-ios-sdk\/SphereSDK\/SphereSDK\/SphereSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 4978,
+      "offset": 5111,
       "length": 5,
       "value": "\"$id\""
     }
