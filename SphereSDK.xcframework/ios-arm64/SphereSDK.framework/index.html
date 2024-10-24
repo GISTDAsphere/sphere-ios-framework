@@ -208,8 +208,11 @@
           }
         } else if (method === 'Event.bind' && args.length > 0) {
           try {
-            let fn = (...params) => {
+            const fn = (...params) => {
               let data;
+              if (args[0] === sphere.EventName.LayerChange && params.length === 1) {
+                params.push(null);
+              }
               if (params.length === 0) {
                 data = null;
               }
